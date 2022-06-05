@@ -1,0 +1,22 @@
+<script type="module">
+let i = 0;
+for (alert(1), alert(2); alert(3), alert(4), i < 3; alert(5), i++) {
+  alert("loop")
+}
+/*
+1
+2
+3
+4
+3
+4
+loop
+5
+3
+4
+loop
+5
+3
+4
+*/
+</script>
